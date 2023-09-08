@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
 .card {
+    font-family: 'Poppins', 'san-serif';
     max-width: 300px;
     margin: auto;
-    text-align: center;
-    background-color: rgba(161, 165, 167, 0.267);
     border-radius: 10px;
     padding-bottom: 10px;
-    box-shadow: 0 4px 8px rgba(2, 2, 2, 0.2);
+    text-align: center;
+    background-color: rgba(161, 165, 167, 0.267);
+    box-shadow: 0 5px 10px rgba(2, 2, 2, 0.2);
     transition: transform 0.3s ease-in-out;
 }
 
@@ -44,20 +47,21 @@ img {
 
 .track {
     margin-top: 0;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 
 #day, #utcTime {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
     background-color: rgb(205, 209, 208);
 }
 
 a {
     text-decoration: none;
+    font-weight: 600;
 }
 
 a:hover {
-    color: blue;
+    color: rgb(0, 0, 255);
 }
